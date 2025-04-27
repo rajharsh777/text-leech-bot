@@ -25,8 +25,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Initialize the bot
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
+    api_id=20313243,
+    api_hash=acc93a3d087759b4383f7cc2d7c2b406,
     bot_token=BOT_TOKEN
 )
 
@@ -71,14 +71,14 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\nEAGLE YT\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Opleech_WD") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/RAJHARSH_77") ],
                     [
-                    InlineKeyboardButton("✜ 𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵𝗚𝗼𝘀𝘄𝗮𝗺𝗶𝟮𝟰 ✜" ,url="https://t.me/AshutoshGoswami24") ],
+                    InlineKeyboardButton("OWNER" ,url="https://t.me/RAJHARSH77") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/Opleech_WD/13") ]                               
+                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/RAJHARSH_77") ]                               
             ]))
 
 
